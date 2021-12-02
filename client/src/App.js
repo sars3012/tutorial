@@ -5,7 +5,7 @@ import axios from './customAxios'
 // import axios from 'axios';
 import { Button, Container, Card, Row } from 'react-bootstrap'
 
-const axiosClient = axios('http://localhost:8081/api');
+const axiosClient = axios('http://localhost:7000');
 // const axiosClient = axios.create({
 //   baseURL: 'http://localhost:8081/api'
 // });
